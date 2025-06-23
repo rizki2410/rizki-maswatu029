@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galeri.css">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galeri.css">
+    <title>Document</title>
+</head>
+<body>
+     <div class="container">
+        <header class="header">
+            <h1 class="judul">welcome to my website</h1>
+            <nav>
+                <ul>
+                    <li><a href="beranda.html">beranda</a></li>
+                    <li><a href="profil.html">profil</a></li>
+                    <li><a href="galeri.html">galeri</a></li>
+                    <li><a href="artikel.html">artikel</a></li>
+                    <li><a href="tentang.html">tentang</a></li>
+                </ul>
+            </nav>
+        </header>
+         <div class="header">
+    </div>
+    <h3>foto bersama keluarga</h3>
+    <div class="gallery">
+        <img src="foto keluarga.jpg" onclick="preview(this)">
+        <img src="foto keluarga.jpg" onclick="preview(this)">
+        <img src="foto keluarga.jpg" onclick="preview(this)">
+        <img src="foto keluarga.jpg" onclick="preview(this)">
+        <img src="foto keluarga.jpg" onclick="preview(this)">
+        </div>
+        <h3>foto bersama sepupu</h3>
+       <div class="gallery"> 
+        <img src="foto sepupu.jpg" onclick="preview(this)">
+        <img src="foto sepupu.jpg" onclick="preview(this)">
+        <img src="foto sepupu.jpg" onclick="preview(this)">
+        <img src="foto sepupu.jpg" onclick="preview(this)">
+        <img src="foto sepupu.jpg" onclick="preview(this)">
+        </div>
+        <h3> foto bersama teman</h3>
+        <div class="gallery">
+        <img src="bersama teman.jpg" onclick="preview(this)">
+        <img src="bersama teman.jpg" onclick="preview(this)">
+        <img src="bersama teman.jpg" onclick="preview(this)">
+        <img src="bersama teman.jpg" onclick="preview(this)">
+        <img src="bersama teman.jpg" onclick="preview(this)">
+        </div>
+        <h3>foto bersama saudara</h3>
+        <div class="gallery">
+        <img src="saudara.jpg" onclick="preview(this)">
+        <img src="saudara.jpg" onclick="preview(this)">
+        <img src="saudara.jpg" onclick="preview(this)">
+        <img src="saudara.jpg" onclick="preview(this)">
+        <img src="saudara.jpg" onclick="preview(this)">
+        </div>
+    
+
+    <div id="modal" class="modal" onclick="this.style.display='none'">
+        <span class="close">&times;</span>
+        <img id="previewImg">
+    </div>
+
+    <script>
+        function preview(img) {
+            document.getElementById('modal').style.display = 'block';
+            document.getElementById('previewImg').src = img.src;
+        }
+    </script>
+   
+</body>
+</html>
+    
+</body>
+</html>
