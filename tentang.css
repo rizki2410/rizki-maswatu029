@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: rgb(245, 221, 5);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: gainsboro;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.judul {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(150, 11, 11);
+    padding: 5px 10px;
+    transition: 0.3s ease-in-out;
+}
+nav ul li a:hover {
+    background-color: rgb(146, 20, 20);
+    color: antiquewhite;
+    border-radius: 5px;
+}
+.videoku {
+            width: 420px;
+            margin: 0 auto;
+            border-radius: 19px;
+            overflow: hidden; 
+        }  
+
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
